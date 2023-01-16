@@ -15,6 +15,7 @@ var userSymbols;
 var userLowerCase;
 var userUpperCase;
 var userPasswordLength;
+var newPassword;
 
 //Object for password length
 var passwordLength = {
@@ -82,7 +83,6 @@ function generatePassword() {
         console.log(generatedPassword);
     }
     passwordText.value = generatedPassword;
-    return;
 }
 
 // Add event listener to generate button
