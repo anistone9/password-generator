@@ -14,6 +14,7 @@ var userNumbers;
 var userSymbols;
 var userLowerCase;
 var userUpperCase;
+var userPasswordLength;
 
 //Object for password length
 var passwordLength = {
@@ -27,7 +28,7 @@ function writePassword() {
     //Prompt when user clicks the button to generate a new password
     var userClick = window.alert("Enter password criteria");
     //Prompt for user to select the password length
-    var userPasswordLength = window.prompt("Enter password length");
+    userPasswordLength = window.prompt("Enter password length");
     if (userPasswordLength < passwordLength.min) {
         window.alert("Password needs to be at least 8 characters long");
         return;
@@ -73,14 +74,15 @@ function generatePassword() {
     console.log(userNumbers);
     var generatedPassword = "";
     //For loop to generate a password using the inputs from the user for length and character types
-    for (var i = 0; i < passwordCriteria.length; i++) {
+    for (var i = 0; i < userPasswordLength; i++) {
         //Random is between 0 and 1; multiplying it by 4 makes it between 0 and 4; Math.floor rounds the number down to the nearest full integer, making it 0 to 3
         //For each iteration of the for loop, get a random character in passwordCriteria veriable, and concatenate it to the generated password
         var index = Math.floor(Math.random() * passwordCriteria.length);
-        generatedPassword.concat(passwordCriteria[index]);
+        generatedPassword = generatedPassword.concat(passwordCriteria[index]);
         console.log(generatedPassword);
     }
     passwordText.value = generatedPassword;
+    return;
 }
 
 // Add event listener to generate button
