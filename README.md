@@ -6,9 +6,9 @@ This project represents a password generator that allows users to create random 
 
 ## Deployed application
 
+https://anistone9.github.io/Challenge-3/
 
-
-![image]
+![image](https://user-images.githubusercontent.com/58886869/212750547-3bcbd80f-6828-4e15-bc8f-72fb22d9e7cc.png)
 
 ## Features
 
