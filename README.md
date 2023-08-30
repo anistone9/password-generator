@@ -15,22 +15,22 @@ https://anistone9.github.io/Challenge-3/
 This application includes a responsive design, and can be accessed and used on multiple platforms.
 The project includes the following Javascript features learned in the bootcamp:
 
-Using console.log for troubleshooting
-Global and Local variables (Scope)
-Primitive Types
-Logical Comparison Operators
-If Statements
-For Loops (Iteration)
-Objects
-Functions
-DOM
-Event Listeners
+Using console.log for troubleshooting   
+Global and Local variables (Scope)   
+Primitive Types   
+Logical Comparison Operators   
+If Statements   
+For Loops (Iteration)    
+Objects    
+Functions    
+DOM   
+Event Listeners    
 
 ## Technologies used
 
-HTML
-CSS
-JaveScript
+HTML   
+CSS   
+JaveScript    
 
 ## Installation
 
